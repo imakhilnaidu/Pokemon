@@ -25,7 +25,7 @@ const SearchBar = (props) => {
             type="text"
             placeholder="character name"
           />
-          <button id="search__btn" onClick={handleSubmit}>
+          <button id="search__btn" onClick={handleSubmit} disabled={!character}>
             Search
           </button>
         </form>
